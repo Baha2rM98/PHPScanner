@@ -7,13 +7,10 @@ use Iterator\Iterator;
 
 abstract class InputStream implements Iterator
 {
-    public function hasNext()
-    {
-        // TODO: Implement hasNext() method.
-    }
+    private const in = STDIN;
 
-    public function close()
+    protected final function createNewInput()
     {
-        // TODO: Implement close() method.
+        return fgets(self::in);
     }
 }
