@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c5527c3a-5d3c-4d54-b4f7-1a560422eb63" name="PHPScannerServer" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\PHPScanner" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

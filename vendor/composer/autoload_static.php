@@ -9,10 +9,6 @@ class ComposerStaticInitcd048ae6d275adc41ade441a8b670dd3
     public static $prefixesPsr0 = array (
         'S' => 
         array (
-            'System' => 
-            array (
-                0 => __DIR__ . '/../..' . '/src',
-            ),
             'Scanner' => 
             array (
                 0 => __DIR__ . '/../..' . '/src',
@@ -20,6 +16,10 @@ class ComposerStaticInitcd048ae6d275adc41ade441a8b670dd3
         ),
         'I' => 
         array (
+            'Iterator' => 
+            array (
+                0 => __DIR__ . '/../..' . '/src',
+            ),
             'InputStream' => 
             array (
                 0 => __DIR__ . '/../..' . '/src',
@@ -27,10 +27,17 @@ class ComposerStaticInitcd048ae6d275adc41ade441a8b670dd3
         ),
     );
 
+    public static $classMap = array (
+        'InputStream\\InputStream' => __DIR__ . '/../..' . '/src/inputstream/InputStream.php',
+        'Iterator\\Iterator' => __DIR__ . '/../..' . '/src/inputstream/Iterator.php',
+        'Scanner\\Scanner' => __DIR__ . '/../..' . '/src/scanner/Scanner.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixesPsr0 = ComposerStaticInitcd048ae6d275adc41ade441a8b670dd3::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitcd048ae6d275adc41ade441a8b670dd3::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -3,8 +3,9 @@
 
 namespace Scanner;
 
+use InputStream\InputStream;
 
-class Scanner
+final class Scanner extends InputStream
 {
 
 }

@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'System' => array($baseDir . '/src'),
     'Scanner' => array($baseDir . '/src'),
+    'Iterator' => array($baseDir . '/src'),
     'InputStream' => array($baseDir . '/src'),
 );
