@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b94b945f-1461-49ac-b2b4-76e86e18643c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputstream/Iterator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PHPScanner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PHPScanner.iml" afterDir="false" />
+    <list default="true" id="b94b945f-1461-49ac-b2b4-76e86e18643c" name="Default Changelist" comment="composer updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inputstream/InputStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream/InputStream.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scanner/Scanner.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/scanner/Scanner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/system/System.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +28,7 @@
       </set>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
@@ -72,6 +58,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.test.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -83,8 +79,65 @@
       <option name="presentableId" value="Default" />
       <updated>1568824629518</updated>
       <workItem from="1568824630691" duration="1338000" />
-      <workItem from="1568835357795" duration="1135000" />
+      <workItem from="1568835357795" duration="19738000" />
     </task>
+    <task id="LOCAL-00001" summary="whole project rebuilt">
+      <created>1568836681025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568836681025</updated>
+    </task>
+    <task id="LOCAL-00002" summary="iterator interface completed">
+      <created>1568839415767</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568839415767</updated>
+    </task>
+    <task id="LOCAL-00003" summary="input stream class completed">
+      <created>1568839470255</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568839470255</updated>
+    </task>
+    <task id="LOCAL-00004" summary=".gitignore file added">
+      <created>1568839584395</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568839584395</updated>
+    </task>
+    <task id="LOCAL-00005" summary="composer updated">
+      <created>1568839609525</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568839609525</updated>
+    </task>
+    <task id="LOCAL-00006" summary="InputStream class documented and completed">
+      <created>1568884522861</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568884522861</updated>
+    </task>
+    <task id="LOCAL-00007" summary="iterator interface documented">
+      <created>1568884543256</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568884543256</updated>
+    </task>
+    <task id="LOCAL-00008" summary="bug fixed">
+      <created>1568889021097</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568889021097</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +153,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="whole project rebuilt" />
+    <MESSAGE value="iterator interface completed" />
+    <MESSAGE value="input stream class completed" />
+    <MESSAGE value=".gitignore file added" />
+    <MESSAGE value="composer updated" />
+    <MESSAGE value="InputStream class documented and completed" />
+    <MESSAGE value="iterator interface documented" />
+    <MESSAGE value="bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fixed" />
   </component>
 </project>
