@@ -8,7 +8,7 @@
     "input stream"
   ],
   "license": "MIT",
-  "minimum-stability": "beta",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "Bahador Mirzazadeh",
