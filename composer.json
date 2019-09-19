@@ -1,14 +1,15 @@
 {
-  "name": "baha2rmirzazadeh/phpscanner",
+  "name": "baha2rmirzazadeh/phpmath",
   "description": "A library to work with input stream (act just like scanner class in java)",
-  "type": "library",
   "keywords": [
     "php",
     "scanner",
     "input stream"
   ],
+  "type": "library",
   "license": "MIT",
   "minimum-stability": "stable",
+  "homepage": "https://github.com/Baha2rM98/PHPScanner",
   "authors": [
     {
       "name": "Bahador Mirzazadeh",
