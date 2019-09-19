@@ -1,7 +1,7 @@
 <?php
 require_once "vendor\autoload.php";
 
-use Scanner\Scanner;
+use PHPScanner\Scanner\Scanner;
 
 $scn = new Scanner();
 $a = $scn->nextString();
