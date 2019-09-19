@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b94b945f-1461-49ac-b2b4-76e86e18643c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPScanner/InputStream/InputStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPScanner/InputStream/Iterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPScanner/Scanner/Scanner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream/InputStream.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream/Iterator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scanner/Scanner.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +87,8 @@
       <workItem from="1568835357795" duration="20020000" />
       <workItem from="1568895178869" duration="253000" />
       <workItem from="1568896773661" duration="127000" />
-      <workItem from="1568912976176" duration="606000" />
+      <workItem from="1568912976176" duration="769000" />
+      <workItem from="1568924303987" duration="811000" />
     </task>
     <task id="LOCAL-00001" summary="whole project rebuilt">
       <created>1568836681025</created>
@@ -210,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568913441172</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="composer updated">
+      <created>1568913591918</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1568913591918</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,8 +255,8 @@
     <MESSAGE value="minimum-stability changed to stable" />
     <MESSAGE value="a necessary autoload added" />
     <MESSAGE value="workspace file updated" />
-    <MESSAGE value="composer updated" />
     <MESSAGE value="unnecessary autoload omitted" />
-    <option name="LAST_COMMIT_MESSAGE" value="unnecessary autoload omitted" />
+    <MESSAGE value="composer updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="composer updated" />
   </component>
 </project>

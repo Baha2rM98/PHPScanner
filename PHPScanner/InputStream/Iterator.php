@@ -8,7 +8,7 @@
  * This interface is parent iterator to iterate and scan files
  **/
 
-namespace Iterator;
+namespace PHPScanner\InputStream;
 
 
 interface Iterator

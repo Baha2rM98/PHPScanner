@@ -8,9 +8,8 @@
  * Class InputStream creates main standard IO input stream to get streams
  **/
 
-namespace InputStream;
+namespace PHPScanner\InputStream;
 
-use Iterator\Iterator;
 
 abstract class InputStream implements Iterator
 {

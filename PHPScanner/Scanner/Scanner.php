@@ -8,11 +8,11 @@
  * This class provides a system to get input streams from keyboard and also provides a system to read files
  **/
 
-namespace Scanner;
+namespace PHPScanner\Scanner;
 
 use Exception;
 use GMP;
-use InputStream\InputStream;
+use PHPScanner\InputStream\InputStream;
 
 final class Scanner extends InputStream
 {
