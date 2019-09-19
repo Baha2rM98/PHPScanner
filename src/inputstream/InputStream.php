@@ -10,8 +10,6 @@
 
 namespace InputStream;
 
-require_once "Iterator.php";
-
 use Iterator\Iterator;
 
 abstract class InputStream implements Iterator
