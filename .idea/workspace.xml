@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b94b945f-1461-49ac-b2b4-76e86e18643c" name="Default Changelist" comment="composer updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scanner/Scanner.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/scanner/Scanner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
-    </list>
+    <list default="true" id="b94b945f-1461-49ac-b2b4-76e86e18643c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/Programming/Releases/PHPScanner" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
@@ -79,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568824629518</updated>
       <workItem from="1568824630691" duration="1338000" />
-      <workItem from="1568835357795" duration="19738000" />
+      <workItem from="1568835357795" duration="20020000" />
     </task>
     <task id="LOCAL-00001" summary="whole project rebuilt">
       <created>1568836681025</created>
@@ -137,7 +134,28 @@
       <option name="project" value="LOCAL" />
       <updated>1568889021097</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="scanner class documented and completed :)">
+      <created>1568894760712</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568894760712</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test.php file updated">
+      <created>1568894818295</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1568894818295</updated>
+    </task>
+    <task id="LOCAL-00011" summary="workspace file updated">
+      <created>1568894840515</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1568894840515</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +181,9 @@
     <MESSAGE value="InputStream class documented and completed" />
     <MESSAGE value="iterator interface documented" />
     <MESSAGE value="bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fixed" />
+    <MESSAGE value="scanner class documented and completed :)" />
+    <MESSAGE value="test.php file updated" />
+    <MESSAGE value="workspace file updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace file updated" />
   </component>
 </project>
