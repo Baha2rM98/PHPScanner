@@ -15,14 +15,7 @@ use Iterator\Iterator;
 abstract class InputStream implements Iterator
 {
     // private fields
-    private static $in;
-
-
-    //constructor
-    protected function __construct()
-    {
-        self::$in = STDIN;
-    }
+    private const in = STDIN;
 
 
     /**
@@ -31,6 +24,6 @@ abstract class InputStream implements Iterator
      **/
     protected final function createNewInput()
     {
-        return fgets(self::$in);
+        return fgets(self::in);
     }
 }
