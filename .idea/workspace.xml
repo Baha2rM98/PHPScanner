@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b94b945f-1461-49ac-b2b4-76e86e18643c" name="Default Changelist" comment="" />
+    <list default="true" id="b94b945f-1461-49ac-b2b4-76e86e18643c" name="Default Changelist" comment="workspace file updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inputstream/InputStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/inputstream/InputStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +84,8 @@
       <workItem from="1568824630691" duration="1338000" />
       <workItem from="1568835357795" duration="20020000" />
       <workItem from="1568895178869" duration="253000" />
+      <workItem from="1568896773661" duration="127000" />
+      <workItem from="1568912976176" duration="285000" />
     </task>
     <task id="LOCAL-00001" summary="whole project rebuilt">
       <created>1568836681025</created>
@@ -170,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568895363594</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="a necessary autoload added">
+      <created>1568896851041</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1568896851041</updated>
+    </task>
+    <task id="LOCAL-00015" summary="workspace file updated">
+      <created>1568896879222</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1568896879222</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +223,7 @@
     <MESSAGE value="scanner class documented and completed :)" />
     <MESSAGE value="test.php file updated" />
     <MESSAGE value="minimum-stability changed to stable" />
+    <MESSAGE value="a necessary autoload added" />
     <MESSAGE value="workspace file updated" />
     <option name="LAST_COMMIT_MESSAGE" value="workspace file updated" />
   </component>
