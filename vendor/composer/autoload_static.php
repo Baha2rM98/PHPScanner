@@ -7,30 +7,19 @@ namespace Composer\Autoload;
 class ComposerStaticInitcd048ae6d275adc41ade441a8b670dd3
 {
     public static $prefixesPsr0 = array (
-        'S' => 
+        'P' => 
         array (
-            'Scanner' => 
+            'PHPScanner' => 
             array (
-                0 => __DIR__ . '/../..' . '/src',
-            ),
-        ),
-        'I' => 
-        array (
-            'Iterator' => 
-            array (
-                0 => __DIR__ . '/../..' . '/src',
-            ),
-            'InputStream' => 
-            array (
-                0 => __DIR__ . '/../..' . '/src',
+                0 => __DIR__ . '/../..' . '/',
             ),
         ),
     );
 
     public static $classMap = array (
-        'InputStream\\InputStream' => __DIR__ . '/../..' . '/src/inputstream/InputStream.php',
-        'Iterator\\Iterator' => __DIR__ . '/../..' . '/src/inputstream/Iterator.php',
-        'Scanner\\Scanner' => __DIR__ . '/../..' . '/src/scanner/Scanner.php',
+        'PHPScanner\\InputStream\\InputStream' => __DIR__ . '/../..' . '/PHPScanner/InputStream/InputStream.php',
+        'PHPScanner\\InputStream\\Iterator' => __DIR__ . '/../..' . '/PHPScanner/InputStream/Iterator.php',
+        'PHPScanner\\Scanner\\Scanner' => __DIR__ . '/../..' . '/PHPScanner/Scanner/Scanner.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
