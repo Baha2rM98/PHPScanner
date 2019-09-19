@@ -22,9 +22,7 @@
   },
   "autoload": {
     "psr-0": {
-      "Iterator": "src/",
-      "InputStream": "src/",
-      "Scanner": "src/"
+      "PHPScanner": ""
     }
   }
 }
