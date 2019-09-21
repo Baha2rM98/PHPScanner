@@ -1,6 +1,6 @@
 {
   "name": "baha2rmirzazadeh/phpscanner",
-  "description": "A library to work with input stream (act just like scanner class in java)",
+  "description": "A php library to work with input stream data! (behave like Scanner class in java)",
   "keywords": [
     "php",
     "scanner",
