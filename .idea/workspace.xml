@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b94b945f-1461-49ac-b2b4-76e86e18643c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" />
-    </list>
+    <list default="true" id="b94b945f-1461-49ac-b2b4-76e86e18643c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
       <workItem from="1569083797391" duration="37000" />
       <workItem from="1569084749423" duration="51000" />
       <workItem from="1569085161614" duration="43000" />
-      <workItem from="1569087225674" duration="2565000" />
+      <workItem from="1569087225674" duration="2607000" />
     </task>
     <task id="LOCAL-00001" summary="whole project rebuilt">
       <created>1568836681025</created>
@@ -276,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569091448168</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="test.php omitted">
+      <created>1569091570878</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1569091570878</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +320,7 @@
     <MESSAGE value="vendor omitted" />
     <MESSAGE value=".gitignore updated" />
     <MESSAGE value="README updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="README updated" />
+    <MESSAGE value="test.php omitted" />
+    <option name="LAST_COMMIT_MESSAGE" value="test.php omitted" />
   </component>
 </project>
