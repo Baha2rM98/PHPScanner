@@ -8,13 +8,12 @@
   ],
   "type": "library",
   "license": "MIT",
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "homepage": "https://github.com/Baha2rM98/PHPScanner",
   "authors": [
     {
       "name": "Bahador Mirzazadeh",
-      "email": "baha2r.mirzazadeh98@gmail.com"
+      "email": "baha2r.mirzazadeh98@gmail.com",
+      "role": "Developer"
     }
   ],
   "require": {
