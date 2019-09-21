@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b94b945f-1461-49ac-b2b4-76e86e18643c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PHPScanner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PHPScanner.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +86,10 @@
       <workItem from="1568924303987" duration="1713000" />
       <workItem from="1568972083688" duration="161000" />
       <workItem from="1569083233904" duration="515000" />
+      <workItem from="1569083797391" duration="37000" />
+      <workItem from="1569084749423" duration="51000" />
+      <workItem from="1569085161614" duration="43000" />
+      <workItem from="1569087225674" duration="2447000" />
     </task>
     <task id="LOCAL-00001" summary="whole project rebuilt">
       <created>1568836681025</created>
@@ -269,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569083639048</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary=".gitignore updated">
+      <created>1569083819615</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1569083819615</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,8 +316,8 @@
     <MESSAGE value="test.php file updated" />
     <MESSAGE value="autoload files updated" />
     <MESSAGE value="workspace file updated" />
-    <MESSAGE value=".gitignore updated" />
     <MESSAGE value="vendor omitted" />
-    <option name="LAST_COMMIT_MESSAGE" value="vendor omitted" />
+    <MESSAGE value=".gitignore updated" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore updated" />
   </component>
 </project>
