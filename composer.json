@@ -8,7 +8,7 @@
   ],
   "type": "library",
   "license": "MIT",
-  "minimum-stability": "beta",
+  "minimum-stability": "stable",
   "homepage": "https://github.com/Baha2rM98/PHPScanner",
   "authors": [
     {
