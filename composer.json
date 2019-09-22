@@ -1,6 +1,6 @@
 {
   "name": "baha2rmirzazadeh/phpscanner",
-  "description": "A php library to work with input stream data! (behave like Scanner class in java)",
+  "description": "A php library to work with input stream data! (behave like Scanner class in java, including: reading files and get all type of inputs)",
   "keywords": [
     "php",
     "scanner",
@@ -16,6 +16,7 @@
     }
   ],
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "version": "1.0.0",
   "authors": [
     {
@@ -30,7 +31,7 @@
   },
   "autoload": {
     "psr-0": {
-      "PHPScanner\\": ""
+      "PHPScanner": ""
     }
   }
 }
