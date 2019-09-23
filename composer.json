@@ -11,12 +11,12 @@
   "homepage": "https://github.com/Baha2rM98/PHPScanner",
   "repositories": [
     {
-      "type": "vcs",
-      "url": "https://github.com/Baha2rM98/PHPScanner"
+      "type": "git",
+      "url": "https://github.com/Baha2rM98/PHPScanner.git"
     }
   ],
   "minimum-stability": "dev",
-  "prefer-stable": true,
+  "prefer-stable": false,
   "version": "1.0.0",
   "authors": [
     {
