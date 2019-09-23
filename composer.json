@@ -12,7 +12,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "git@github.com:Baha2rM98/PHPScanner"
+      "url": "https://github.com/Baha2rM98/PHPScanner"
     }
   ],
   "minimum-stability": "dev",
