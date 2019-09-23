@@ -26,7 +26,8 @@
   ],
   "require": {
     "php": ">=7.1.0",
-    "ext-gmp": "*"
+    "ext-gmp": "*",
+    "Baha2rM98/PHPScanner": "dev-master@dev"
   },
   "autoload": {
     "psr-0": {
