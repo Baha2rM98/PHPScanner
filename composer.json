@@ -15,7 +15,7 @@
       "url": "https://github.com/Baha2rM98/PHPScanner"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "prefer-stable": true,
   "authors": [
     {
