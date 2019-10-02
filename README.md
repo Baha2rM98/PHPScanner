@@ -19,7 +19,7 @@ Installation
 Use [Composer] to install the package:
 
 ```
-$ composer require baha2rmirzazadeh/phpscanner:dev-master@dev
+$ composer require baha2rmirzazadeh/phpscanner
 ```
 
 Example
