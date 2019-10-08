@@ -13,11 +13,11 @@ namespace PHPScanner\InputStream;
 
 interface Iterator
 {
-    /**
-     * close() will be implemented in child class
-     **/
-    public function close();
 
+    /**
+     * nextLine() will be implemented in child class
+     **/
+    public function nextLine();
 
     /**
      * hasNext() will be implemented in child class
