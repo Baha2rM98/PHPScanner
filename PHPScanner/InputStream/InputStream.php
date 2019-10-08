@@ -11,7 +11,7 @@
 namespace PHPScanner\InputStream;
 
 
-abstract class InputStream implements Iterator
+abstract class InputStream implements Iterator, Closeable
 {
     // private fields
     private const in = STDIN;
