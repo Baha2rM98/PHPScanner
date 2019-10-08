@@ -9,14 +9,6 @@
   "type": "library",
   "license": "MIT",
   "homepage": "https://github.com/Baha2rM98/PHPScanner",
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/Baha2rM98/PHPScanner"
-    }
-  ],
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "authors": [
     {
       "name": "Bahador Mirzazadeh",
