@@ -4,7 +4,10 @@
   "keywords": [
     "php",
     "scanner",
-    "input stream"
+    "input stream",
+    "input",
+    "cli",
+    "prompt"
   ],
   "type": "library",
   "license": "MIT",
