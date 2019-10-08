@@ -39,45 +39,49 @@ final class Scanner extends InputStream
         }
     }
 
-    /**
-     * @return bool|resource return value of private field $handle
-     **/
-    private function getHandle()
-    {
-        return $this->handle;
-    }
-
 
     /**
+     * @param null $from [optional] change base of entered number from $from
+     * @param int $radix [optional] change base of entered number to $radix
      * @return integer return entered integer
      * @throws Exception
      */
-    public function nextInt()
+    public function nextInt($from = null, $radix = null)
     {
         $val = $this->createNewInput();
-        return $this->toInt($val);
+        if (is_null($from) && is_null($radix))
+            return $this->toInt($val);
+        return $this->toInt($this->changeRadix($val, $from, $radix));
     }
 
 
     /**
+     * @param int $radix [optional] change base of entered number to $radix
+     * @param null $from [optional] change base of entered number from $from
      * @return float return entered float
      * @throws Exception
      */
-    public function nextFloat()
+    public function nextFloat($from = null, $radix = null)
     {
         $val = $this->createNewInput();
-        return $this->toFloat($val);
+        if (is_null($from) && is_null($radix))
+            return $this->toFloat($val);
+        return $this->toFloat($this->changeRadix($val, $from, $radix));
     }
 
 
     /**
+     * @param null $from [optional] change base of entered number from $from
+     * @param int $radix [optional] change base of entered number to $radix
      * @return GMP return entered GMP number
      * @throws Exception
      */
-    public function nextGMP()
+    public function nextGMP($from = null, $radix = null)
     {
         $val = $this->createNewInput();
-        return $this->toGMP($val);
+        if (is_null($from) && is_null($radix))
+            return $this->toGMP($val);
+        return $this->toGMP($this->changeRadix(gmp_strval($val), $from, $radix));
     }
 
 
@@ -104,6 +108,27 @@ final class Scanner extends InputStream
     // private functions
 
     /**
+     * @return bool|resource return value of private field $handle
+     **/
+    private function getHandle()
+    {
+        return $this->handle;
+    }
+
+
+    /**
+     * @param string $number
+     * @param integer $to
+     * @param integer $from
+     * @return string return converted number from base $from to base $to
+     */
+    private function changeRadix($number, $from, $to)
+    {
+        return base_convert($number, $from, $to);
+    }
+
+
+    /**
      * @param string $value
      * @return integer return converted $value to integer
      * @throws Exception
@@ -114,6 +139,7 @@ final class Scanner extends InputStream
             throw new Exception("Number Format Exception!");
         return intval($value);
     }
+
 
     /**
      * @param string $value
