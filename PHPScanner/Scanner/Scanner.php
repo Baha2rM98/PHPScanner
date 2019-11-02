@@ -160,7 +160,7 @@ final class Scanner extends InputStream
      */
     private function toInt($value)
     {
-        if (preg_match("/[a-z]/i", $value)) {
+        if (intval($value) === 0) {
             throw new NumberFormatException("Number Format Exception!");
         }
         return intval($value);
@@ -176,7 +176,7 @@ final class Scanner extends InputStream
      */
     private function toFloat($value)
     {
-        if (preg_match("/[a-z]/i", $value)) {
+        if (intval($value) === 0) {
             throw new NumberFormatException("Number Format Exception!");
         }
         return floatval($value);
@@ -192,7 +192,7 @@ final class Scanner extends InputStream
      **/
     private function toGMP($value)
     {
-        if (preg_match("/[a-z]/i", $value)) {
+        if (gmp_init($value) === 0) {
             throw new NumberFormatException("Number Format Exception!");
         }
         return gmp_init($value);
