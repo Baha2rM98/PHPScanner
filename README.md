@@ -1,22 +1,22 @@
 PHPScanner
 ==========
 This library contains efficient classes and methods to work with input stream data for example: get numbers and 
-strings from input stream(keyboard). also have some features for open and read files.
+strings from input stream(keyboard), also have some features for open and read files.
 
-This library package behave like Scanner class in java.
+This library inspired from Scanner class in Java.
 
 Features
 --------
-Get input stream as integer, float, bigInteger (GMP in PHP), string and etc.
+Get input stream as integer, float, bigInteger (GMP in PHP), string etc.
 Also it provide some methods to open and read files.
 
 You can find more information in documentation.
 
-**[Change Input Radix] will be add soon**
+**[Change Input Radix] Added**
 
 Installation
 ------------
-Use [Composer] to install the package:
+Use [Composer] to install this package:
 
 ```
 $ composer require baha2rmirzazadeh/phpscanner
@@ -42,7 +42,7 @@ for ($i = 0; $i < 3; $i++) {
 }
 print_r($a);
 
-$file_reader = new Scanner("C:\Users\Baha2r\Desktop\a.txt");
+$file_reader = new Scanner("C:\Users\Baha2r\Desktop\A.txt");
 $file = "";
 while ($file_reader->hasNext()) {
     $file .= $file_reader->nextLine();
