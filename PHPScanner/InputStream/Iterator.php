@@ -14,13 +14,9 @@ namespace PHPScanner\InputStream;
 interface Iterator
 {
 
-    /**
-     * nextLine() will be implemented in child class
-     **/
+    // Gets next line of the file
     public function nextLine();
 
-    /**
-     * hasNext() will be implemented in child class
-     **/
+    // Checks if exists next line or not
     public function hasNext();
 }

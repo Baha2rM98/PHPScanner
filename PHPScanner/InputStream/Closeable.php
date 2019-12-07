@@ -13,9 +13,7 @@ namespace PHPScanner\InputStream;
 
 interface Closeable
 {
-    /**
-     * close() will be implemented in child class
-     **/
+    // Closes the open stream
     public function close();
 
 }
