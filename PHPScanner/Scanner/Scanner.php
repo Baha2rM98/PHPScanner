@@ -11,7 +11,7 @@
 namespace PHPScanner\Scanner;
 
 use Exception;
-use GMP;
+//use GMP;
 use PHPScanner\InputStream\InputStream;
 
 final class Scanner extends InputStream
@@ -70,19 +70,19 @@ final class Scanner extends InputStream
     }
 
 
-    /**
-     * @param null $from [optional] change base of entered number from $from
-     * @param int $radix [optional] change base of entered number to $radix
-     * @return GMP return entered GMP number
-     * @throws Exception
-     */
-    public function nextGMP($from = null, $radix = null)
-    {
-        $val = $this->createNewInput();
-        if (is_null($from) && is_null($radix))
-            return $this->toGMP($val);
-        return $this->toGMP($this->changeRadix(gmp_strval($val), $from, $radix));
-    }
+//    /**
+//     * @param null $from [optional] change base of entered number from $from
+//     * @param int $radix [optional] change base of entered number to $radix
+//     * @return GMP return entered GMP number
+//     * @throws Exception
+//     */
+//    public function nextGMP($from = null, $radix = null)
+//    {
+//        $val = $this->createNewInput();
+//        if (is_null($from) && is_null($radix))
+//            return $this->toGMP($val);
+//        return $this->toGMP($this->changeRadix(gmp_strval($val), $from, $radix));
+//    }
 
 
     /**
@@ -154,15 +154,15 @@ final class Scanner extends InputStream
     }
 
 
-    /**
-     * @param string $value
-     * @return GMP return converted $value to GMP number
-     * @throws Exception
-     **/
-    private function toGMP($value)
-    {
-        return gmp_init($value);
-    }
+//    /**
+//     * @param string $value
+//     * @return GMP return converted $value to GMP number
+//     * @throws Exception
+//     **/
+//    private function toGMP($value)
+//    {
+//        return gmp_init($value);
+//    }
 
 
     /**
