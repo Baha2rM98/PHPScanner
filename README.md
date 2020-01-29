@@ -7,12 +7,10 @@ This library inspired from Scanner class in Java.
 
 Features
 --------
-Get input stream as integer, float, bigInteger (GMP in PHP), string etc.
+Get input stream as integer, float, string etc.
 Also it provide some methods to open and read files.
 
 You can find more information in documentation.
-
-**[Change Input Radix] Added**
 
 Installation
 ------------
@@ -32,9 +30,8 @@ $scn = new Scanner();
 $a = $scn->nextString();
 print $a;
 
-$n = $scn->nextGMP();
-$m = $scn->nextInt();
-print (gmp_pow($n, $m)) . "\n";
+$m = $scn->nextFloat();
+print $m;
 
 $a = array();
 for ($i = 0; $i < 3; $i++) {
