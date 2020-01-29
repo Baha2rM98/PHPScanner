@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @author Baha2r
+ * @author  Baha2r
  * @license MIT
  * Date : 19/9/2019
  *
